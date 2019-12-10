@@ -8,7 +8,7 @@
 ## Introduction
 
 This tool is a work-around for displays whose brightness contol is not
-supported by the linux kernel. It preforms well on OLED displays,
+supported by the linux kernel. It performs well on OLED displays,
 since these have very dark black point and their power consumption is
 relative to the brightness of the viewed content.
 
@@ -16,12 +16,12 @@ This tool can be used on an LCD display, but in that case you really want
 to control the brightness directly using the display backlight.
 
 Specifically icc-brightness-kde was developed for the
-Lenovo ThinkPad P1 Gen2 with a 4k OLED display.
+Lenovo ThinkPad P1 Gen2 with a 4k OLED display(Samsung panel).
 
 
 ## Build and install
 
-The build requires the liblcms2 development package:
+The build requires the liblcms2 development package and colord-kde:
 ```console
 $ sudo apt install liblcms2-dev colord-kde 
 Reading package lists... Done
